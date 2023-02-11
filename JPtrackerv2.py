@@ -11,7 +11,7 @@ customtkinter.set_default_color_theme('green')
 root = customtkinter.CTk()
 root.title("JP Valorant Tracker")
 root.geometry("460x360")
-root.iconbitmap(r'C:\Users\joepo\Documents\coding\Project 002\Improving My Tracker UI\tracker.ico')
+
 
 def search_stats():
     try:
