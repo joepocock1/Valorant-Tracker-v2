@@ -70,7 +70,6 @@ Open .env and replace the placeholder with your actual HenrikDev API key:
 
 env
 HENRIK_API_KEY=your_real_api_key_here
-Important: Do NOT commit your .env file. It contains sensitive information.
 
 Usage
 Run the application:
