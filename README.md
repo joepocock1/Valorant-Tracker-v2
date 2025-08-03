@@ -25,10 +25,6 @@ VALORANT-TRACKER-V2/
 ├── tracker.ico # App icon
 └── README.md # This file
 
-yaml
-Copy
-Edit
-
 ---
 
 ## Getting Started
@@ -53,8 +49,6 @@ cd VALORANT-TRACKER-V2
 Create and activate a virtual environment
 
 bash
-Copy
-Edit
 python -m venv .venv
 
 # Windows
@@ -65,22 +59,16 @@ source .venv/bin/activate
 Install dependencies
 
 bash
-Copy
-Edit
 pip install -r requirements.txt
 Setup environment variables
 
 Copy .env.example to .env:
 
 bash
-Copy
-Edit
 cp .env.example .env
 Open .env and replace the placeholder with your actual HenrikDev API key:
 
 env
-Copy
-Edit
 HENRIK_API_KEY=your_real_api_key_here
 Important: Do NOT commit your .env file. It contains sensitive information.
 
@@ -88,8 +76,6 @@ Usage
 Run the application:
 
 bash
-Copy
-Edit
 python main.py
 Use the Home tab to search for a player by name, tag, and region.
 
